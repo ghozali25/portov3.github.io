@@ -471,6 +471,25 @@ footer .copyright span {
     font-size: 20px;
 }
 
+.iconify-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-gap: 10px; /* Space between icons */
+    max-width: 300px; /* Limit the width */
+    margin: 0 auto; /* Center the grid */
+}
+
+.iconify-cell {
+    text-align: center;
+}
+
+.iconify {
+    font-size: 4vw; /* Adjust size of the icons */
+    display: block;
+    margin: 0 auto; /* Center the icons in each cell */
+}
+
+
 
 
 
