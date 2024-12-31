@@ -491,7 +491,7 @@ footer .copyright span {
 /* Style for the Download CV button */
 .download-cv-button {
     display: inline-block;
-    background-color: #ff6347; /* Button background color */
+    background-color: #81ecaa; /* Button background color */
     color: #fff; /* Text color */
     padding: 12px 30px; /* Padding around the text */
     font-size: 16px; /* Font size */
@@ -504,15 +504,17 @@ footer .copyright span {
 }
 
 .download-cv-button:hover {
-    background-color: #e55347; /* Darker background on hover */
+    background-color: #65cc8c; /* Darker background on hover */
     transform: translateY(-3px); /* Button lifts up on hover */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Deeper shadow on hover */
+    text-decoration: none; /* Ensure no underline on hover */
 }
 
 .download-cv-button:active {
     transform: translateY(1px); /* Button slightly presses when clicked */
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Lighter shadow on click */
 }
+
 
 
 
