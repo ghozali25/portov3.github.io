@@ -484,7 +484,7 @@ footer .copyright span {
 }
 
 .iconify {
-    font-size: 10vw; /* Adjust size of the icons */
+    font-size: 5vw; /* Adjust size of the icons */
     display: block;
     margin: 0 auto; /* Center the icons in each cell */
 
