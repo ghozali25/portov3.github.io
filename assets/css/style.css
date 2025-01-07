@@ -325,7 +325,7 @@ header .hero-pic img {
 }
 #career .career-boxes .career-box span{
     display: block;
-    font-size: 12px;
+    font-size: 8px;
     line-height: 18px;
     color: rgba(35, 31, 32, 0.5);
 }
@@ -335,6 +335,33 @@ header .hero-pic img {
 #career .career-boxes .career-box ul li {
     margin-bottom: 25px;
 }
+#career .career-boxes .career-box .summary {
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: rgba(35, 31, 32, 0.8);
+}
+
+#career .career-boxes .career-box ul li .role {
+    font-weight: 500;
+    font-size: 16px;
+    color: #231F20;
+    margin-bottom: 5px;
+}
+
+#career .career-boxes .career-box ul li .company {
+    font-size: 14px;
+    color: #7B7F9E;
+    margin-bottom: 8px;
+}
+
+#career .career-boxes .career-box ul li .period {
+    font-size: 12px;
+    color: rgba(35, 31, 32, 0.5);
+    font-style: italic;
+}
+
+
 
 /*
     7. PROJECTS
@@ -470,53 +497,6 @@ footer .copyright span {
     font-weight: 600;
     font-size: 20px;
 }
-
-.iconify-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
-    grid-gap: 10px; /* Space between icons */
-    max-width: 300px; /* Limit the width */
-    margin: 0 auto; /* Center the grid */
-}
-
-.iconify-cell {
-    text-align: center;
-}
-
-.iconify {
-    font-size: 5vw; /* Adjust size of the icons */
-    display: block;
-    margin: 0 auto; /* Center the icons in each cell */
-
-/* Style for the Download CV button */
-.download-cv-button {
-    display: inline-block;
-    background-color: #81ecaa; /* Button background color */
-    color: #fff; /* Text color */
-    padding: 12px 30px; /* Padding around the text */
-    font-size: 16px; /* Font size */
-    font-weight: bold; /* Bold text */
-    border-radius: 30px; /* Rounded corners */
-    text-decoration: none; /* Remove underline */
-    text-align: center;
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transitions */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
-}
-
-.download-cv-button:hover {
-    background-color: #65cc8c; /* Darker background on hover */
-    transform: translateY(-3px); /* Button lifts up on hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15); /* Deeper shadow on hover */
-    text-decoration: none; /* Ensure no underline on hover */
-}
-
-.download-cv-button:active {
-    transform: translateY(1px); /* Button slightly presses when clicked */
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1); /* Lighter shadow on click */
-}
-
-
-
 
 
 
@@ -656,8 +636,8 @@ footer .copyright span {
     }
 
 }
-}
 
+/* 
 .updownAnimation {
     animation: MoveUpDown 5s linear infinite;
     position: absolute;
@@ -672,4 +652,4 @@ footer .copyright span {
     50% {
       top: 20px;
     }
-  }
+  } */
